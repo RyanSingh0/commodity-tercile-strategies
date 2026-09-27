@@ -1,0 +1,20 @@
+\begin{table}[H]
+\begin{adjustwidth}{-\extralength}{0cm}
+\caption{Multiple-testing diagnostics over all \nConfigs{} configurations (gross). Relative performance is measured against 1/N of the same commodities at the same frequency for the long-only groups and against zero for the long--short spread. Stationary bootstrap with mean block length 21 sessions, 5000 replications. The Hansen $p$-value varies between about 0.01 and 0.03 across bootstrap seeds.\label{tab:formal}}
+\small
+\begin{tabularx}{\fulllength}{Xr}
+\toprule
+\textbf{Diagnostic} & \textbf{Value}\\
+\midrule
+White Reality Check $p$-value & \rcP\\
+Hansen SPA $p$-value (consistent) & \spaP\\
+\quad best studentised statistic (1-day reversal, Worst 3 of 7, daily) & \spaT\\
+Deflated Sharpe ratio of the best configuration (must exceed 0.95) & \dsr\\
+\quad annualised Sharpe of the best configuration & \dsrSr\\
+\quad expected maximum annualised Sharpe of \nConfigs{} trials under the null & \dsrExpMax\\
+Probability of backtest overfitting (CSCV, 16 blocks, \pboComb{} splits) & \pbo\\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}
+

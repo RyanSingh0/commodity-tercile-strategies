@@ -1,0 +1,321 @@
+\begin{thebibliography}{999}
+
+\bibitem[Miffre and Rallis(2007)]{miffre2007}
+Miffre, J.; Rallis, G.
+\newblock Momentum Strategies in Commodity Futures Markets.
+\newblock {\em Journal of Banking \& Finance} {\bf 2007}, {\em 31},~1863--1886.
+\newblock {\url{https://doi.org/10.1016/j.jbankfin.2006.12.005}}.
+
+\bibitem[Shen et~al.(2007)Shen, Szakmary, and Sharma]{shen2007}
+Shen, Q.; Szakmary, A.C.; Sharma, S.C.
+\newblock An Examination of Momentum Strategies in Commodity Futures Markets.
+\newblock {\em Journal of Futures Markets} {\bf 2007}, {\em 27},~227--256.
+\newblock {\url{https://doi.org/10.1002/fut.20252}}.
+
+\bibitem[Fuertes et~al.(2010)Fuertes, Miffre, and Rallis]{fuertes2010}
+Fuertes, A.M.; Miffre, J.; Rallis, G.
+\newblock Tactical Allocation in Commodity Futures Markets: Combining Momentum
+  and Term Structure Signals.
+\newblock {\em Journal of Banking \& Finance} {\bf 2010}, {\em 34},~2530--2548.
+\newblock {\url{https://doi.org/10.1016/j.jbankfin.2010.04.009}}.
+
+\bibitem[Zhang and Urquhart(2020)]{zhang2020}
+Zhang, H.; Urquhart, A.
+\newblock Do Momentum and Reversal Strategies Work in Commodity Futures? A
+  Comprehensive Study.
+\newblock {\em Review of Behavioral Finance} {\bf 2020}, {\em 12},~375--409.
+\newblock {\url{https://doi.org/10.1108/RBF-05-2019-0067}}.
+
+\bibitem[Sullivan et~al.(1999)Sullivan, Timmermann, and White]{sullivan1999}
+Sullivan, R.; Timmermann, A.; White, H.
+\newblock Data-Snooping, Technical Trading Rule Performance, and the Bootstrap.
+\newblock {\em The Journal of Finance} {\bf 1999}, {\em 54},~1647--1691.
+\newblock {\url{https://doi.org/10.1111/0022-1082.00163}}.
+
+\bibitem[White(2000)]{white2000}
+White, H.
+\newblock A Reality Check for Data Snooping.
+\newblock {\em Econometrica} {\bf 2000}, {\em 68},~1097--1126.
+\newblock {\url{https://doi.org/10.1111/1468-0262.00152}}.
+
+\bibitem[Hansen(2005)]{hansen2005}
+Hansen, P.R.
+\newblock A Test for Superior Predictive Ability.
+\newblock {\em Journal of Business \& Economic Statistics} {\bf 2005}, {\em
+  23},~365--380.
+\newblock {\url{https://doi.org/10.1198/073500105000000063}}.
+
+\bibitem[Romano and Wolf(2005)]{romano2005}
+Romano, J.P.; Wolf, M.
+\newblock Stepwise Multiple Testing as Formalized Data Snooping.
+\newblock {\em Econometrica} {\bf 2005}, {\em 73},~1237--1282.
+\newblock {\url{https://doi.org/10.1111/j.1468-0262.2005.00615.x}}.
+
+\bibitem[Bailey and L{\'o}pez~de Prado(2014)]{bailey2014}
+Bailey, D.H.; L{\'o}pez~de Prado, M.
+\newblock The Deflated {Sharpe} Ratio: Correcting for Selection Bias, Backtest
+  Overfitting, and Non-Normality.
+\newblock {\em The Journal of Portfolio Management} {\bf 2014}, {\em
+  40},~94--107.
+\newblock {\url{https://doi.org/10.3905/jpm.2014.40.5.094}}.
+
+\bibitem[Harvey et~al.(2016)Harvey, Liu, and Zhu]{harvey2016}
+Harvey, C.R.; Liu, Y.; Zhu, H.
+\newblock \ldots and the Cross-Section of Expected Returns.
+\newblock {\em The Review of Financial Studies} {\bf 2016}, {\em 29},~5--68.
+\newblock {\url{https://doi.org/10.1093/rfs/hhv059}}.
+
+\bibitem[Hoffstein et~al.(2019)Hoffstein, Sibears, and Faber]{hoffstein2019}
+Hoffstein, C.; Sibears, J.; Faber, N.
+\newblock Rebalance Timing Luck: The Difference between Hired and Fired.
+\newblock {\em The Journal of Index Investing} {\bf 2019}, {\em 10},~27--36.
+\newblock {\url{https://doi.org/10.3905/jii.2019.1.070}}.
+
+\bibitem[Hoffstein et~al.(2020)Hoffstein, Faber, and Braun]{hoffstein2020}
+Hoffstein, C.; Faber, N.; Braun, S.
+\newblock Rebalance Timing Luck: The (Dumb) Luck of Smart Beta.
+\newblock SSRN Working Paper,  2020.
+\newblock {\url{https://doi.org/10.2139/ssrn.3673910}}.
+
+\bibitem[Adhikari(2024)]{adhikari2024}
+Adhikari, R.
+\newblock Performance of Commodity Futures-Based Dynamic Portfolios.
+\newblock {\em Commodities} {\bf 2024}, {\em 3},~376--388.
+\newblock {\url{https://doi.org/10.3390/commodities3030021}}.
+
+\bibitem[Meena and Pinsky(2026)]{meena2026}
+Meena, A.; Pinsky, E.
+\newblock Two Blind Spots in Backtest Validation: From a Manufactured Dollar
+  Index Anomaly to a Corrected Null Result.
+\newblock \emph{Risks} 2026, submitted.
+
+\bibitem[Erb and Harvey(2006)]{erb2006}
+Erb, C.B.; Harvey, C.R.
+\newblock The Strategic and Tactical Value of Commodity Futures.
+\newblock {\em Financial Analysts Journal} {\bf 2006}, {\em 62},~69--97.
+\newblock {\url{https://doi.org/10.2469/faj.v62.n2.4084}}.
+
+\bibitem[Gorton and Rouwenhorst(2006)]{gorton2006}
+Gorton, G.; Rouwenhorst, K.G.
+\newblock Facts and Fantasies about Commodity Futures.
+\newblock {\em Financial Analysts Journal} {\bf 2006}, {\em 62},~47--68.
+\newblock {\url{https://doi.org/10.2469/faj.v62.n2.4083}}.
+
+\bibitem[Gorton et~al.(2013)Gorton, Hayashi, and Rouwenhorst]{gorton2013}
+Gorton, G.B.; Hayashi, F.; Rouwenhorst, K.G.
+\newblock The Fundamentals of Commodity Futures Returns.
+\newblock {\em Review of Finance} {\bf 2013}, {\em 17},~35--105.
+\newblock {\url{https://doi.org/10.1093/rof/rfs019}}.
+
+\bibitem[Szymanowska et~al.(2014)Szymanowska, de~Roon, Nijman, and van~den
+  Goorbergh]{szymanowska2014}
+Szymanowska, M.; de~Roon, F.; Nijman, T.; van~den Goorbergh, R.
+\newblock An Anatomy of Commodity Futures Risk Premia.
+\newblock {\em The Journal of Finance} {\bf 2014}, {\em 69},~453--482.
+\newblock {\url{https://doi.org/10.1111/jofi.12096}}.
+
+\bibitem[Szakmary et~al.(2010)Szakmary, Shen, and Sharma]{szakmary2010}
+Szakmary, A.C.; Shen, Q.; Sharma, S.C.
+\newblock Trend-Following Trading Strategies in Commodity Futures: A
+  Re-Examination.
+\newblock {\em Journal of Banking \& Finance} {\bf 2010}, {\em 34},~409--426.
+\newblock {\url{https://doi.org/10.1016/j.jbankfin.2009.08.004}}.
+
+\bibitem[Bakshi et~al.(2019)Bakshi, Gao, and Rossi]{bakshi2019}
+Bakshi, G.; Gao, X.; Rossi, A.G.
+\newblock Understanding the Sources of Risk Underlying the Cross Section of
+  Commodity Returns.
+\newblock {\em Management Science} {\bf 2019}, {\em 65},~619--641.
+\newblock {\url{https://doi.org/10.1287/mnsc.2017.2840}}.
+
+\bibitem[Daskalaki et~al.(2014)Daskalaki, Kostakis, and
+  Skiadopoulos]{daskalaki2014}
+Daskalaki, C.; Kostakis, A.; Skiadopoulos, G.
+\newblock Are There Common Factors in Individual Commodity Futures Returns?
+\newblock {\em Journal of Banking \& Finance} {\bf 2014}, {\em 40},~346--363.
+\newblock {\url{https://doi.org/10.1016/j.jbankfin.2013.11.034}}.
+
+\bibitem[Asness et~al.(2013)Asness, Moskowitz, and Pedersen]{asness2013}
+Asness, C.S.; Moskowitz, T.J.; Pedersen, L.H.
+\newblock Value and Momentum Everywhere.
+\newblock {\em The Journal of Finance} {\bf 2013}, {\em 68},~929--985.
+\newblock {\url{https://doi.org/10.1111/jofi.12021}}.
+
+\bibitem[Moskowitz et~al.(2012)Moskowitz, Ooi, and Pedersen]{moskowitz2012}
+Moskowitz, T.J.; Ooi, Y.H.; Pedersen, L.H.
+\newblock Time Series Momentum.
+\newblock {\em Journal of Financial Economics} {\bf 2012}, {\em 104},~228--250.
+\newblock {\url{https://doi.org/10.1016/j.jfineco.2011.11.003}}.
+
+\bibitem[Jegadeesh(1990)]{jegadeesh1990}
+Jegadeesh, N.
+\newblock Evidence of Predictable Behavior of Security Returns.
+\newblock {\em The Journal of Finance} {\bf 1990}, {\em 45},~881--898.
+\newblock {\url{https://doi.org/10.1111/j.1540-6261.1990.tb05110.x}}.
+
+\bibitem[Lehmann(1990)]{lehmann1990}
+Lehmann, B.N.
+\newblock Fads, Martingales, and Market Efficiency.
+\newblock {\em The Quarterly Journal of Economics} {\bf 1990}, {\em
+  105},~1--28.
+\newblock {\url{https://doi.org/10.2307/2937816}}.
+
+\bibitem[Wang and Yu(2004)]{wang2004}
+Wang, C.; Yu, M.
+\newblock Trading Activity and Price Reversals in Futures Markets.
+\newblock {\em Journal of Banking \& Finance} {\bf 2004}, {\em 28},~1337--1361.
+\newblock {\url{https://doi.org/10.1016/S0378-4266(03)00120-1}}.
+
+\bibitem[Kang et~al.(2020)Kang, Rouwenhorst, and Tang]{kang2020}
+Kang, W.; Rouwenhorst, K.G.; Tang, K.
+\newblock A Tale of Two Premiums: The Role of Hedgers and Speculators in
+  Commodity Futures Markets.
+\newblock {\em The Journal of Finance} {\bf 2020}, {\em 75},~377--417.
+\newblock {\url{https://doi.org/10.1111/jofi.12845}}.
+
+\bibitem[Della~Corte et~al.(2015)Della~Corte, Kosowski, and
+  Wang]{dellacorte2015}
+Della~Corte, P.; Kosowski, R.; Wang, T.
+\newblock Market Closure and Short-Term Reversal.
+\newblock SSRN Working Paper,  2015.
+\newblock {\url{https://doi.org/10.2139/ssrn.2730304}}.
+
+\bibitem[Bianchi et~al.(2015)Bianchi, Drew, and Fan]{bianchi2015}
+Bianchi, R.J.; Drew, M.E.; Fan, J.H.
+\newblock Combining Momentum with Reversal in Commodity Futures.
+\newblock {\em Journal of Banking \& Finance} {\bf 2015}, {\em 59},~423--444.
+\newblock {\url{https://doi.org/10.1016/j.jbankfin.2015.07.006}}.
+
+\bibitem[Bailey et~al.(2017)Bailey, Borwein, L{\'o}pez~de Prado, and
+  Zhu]{bailey2017}
+Bailey, D.H.; Borwein, J.; L{\'o}pez~de Prado, M.; Zhu, Q.J.
+\newblock The Probability of Backtest Overfitting.
+\newblock {\em The Journal of Computational Finance} {\bf 2017}, {\em
+  20},~39--69.
+\newblock {\url{https://doi.org/10.21314/JCF.2016.322}}.
+
+\bibitem[Harvey and Liu(2015)]{harvey2015}
+Harvey, C.R.; Liu, Y.
+\newblock Backtesting.
+\newblock {\em The Journal of Portfolio Management} {\bf 2015}, {\em
+  42},~13--28.
+\newblock {\url{https://doi.org/10.3905/jpm.2015.42.1.013}}.
+
+\bibitem[McLean and Pontiff(2016)]{mclean2016}
+McLean, R.D.; Pontiff, J.
+\newblock Does Academic Research Destroy Stock Return Predictability?
+\newblock {\em The Journal of Finance} {\bf 2016}, {\em 71},~5--32.
+\newblock {\url{https://doi.org/10.1111/jofi.12365}}.
+
+\bibitem[Marshall et~al.(2008)Marshall, Cahan, and Cahan]{marshall2008}
+Marshall, B.R.; Cahan, R.H.; Cahan, J.M.
+\newblock Can Commodity Futures Be Profitably Traded with Quantitative Market
+  Timing Strategies?
+\newblock {\em Journal of Banking \& Finance} {\bf 2008}, {\em 32},~1810--1819.
+\newblock {\url{https://doi.org/10.1016/j.jbankfin.2007.12.011}}.
+
+\bibitem[Psaradellis et~al.(2023)Psaradellis, Laws, Pantelous, and
+  Sermpinis]{psaradellis2023}
+Psaradellis, I.; Laws, J.; Pantelous, A.A.; Sermpinis, G.
+\newblock Technical Analysis, Spread Trading, and Data Snooping Control.
+\newblock {\em International Journal of Forecasting} {\bf 2023}, {\em
+  39},~178--191.
+\newblock {\url{https://doi.org/10.1016/j.ijforecast.2021.10.002}}.
+
+\bibitem[Arnott et~al.(2013)Arnott, Hsu, Kalesnik, and Tindall]{arnott2013}
+Arnott, R.D.; Hsu, J.; Kalesnik, V.; Tindall, P.
+\newblock The Surprising Alpha From {Malkiel}'s Monkey and Upside-Down
+  Strategies.
+\newblock {\em The Journal of Portfolio Management} {\bf 2013}, {\em
+  39},~91--105.
+\newblock {\url{https://doi.org/10.3905/jpm.2013.39.4.091}}.
+
+\bibitem[Chordia et~al.(2020)Chordia, Goyal, and Saretto]{chordia2020}
+Chordia, T.; Goyal, A.; Saretto, A.
+\newblock Anomalies and False Rejections.
+\newblock {\em The Review of Financial Studies} {\bf 2020}, {\em
+  33},~2134--2179.
+\newblock {\url{https://doi.org/10.1093/rfs/hhaa018}}.
+
+\bibitem[Novy-Marx and Velikov(2016)]{novymarx2016}
+Novy-Marx, R.; Velikov, M.
+\newblock A Taxonomy of Anomalies and Their Trading Costs.
+\newblock {\em The Review of Financial Studies} {\bf 2016}, {\em 29},~104--147.
+\newblock {\url{https://doi.org/10.1093/rfs/hhv063}}.
+
+\bibitem[Marshall et~al.(2012)Marshall, Nguyen, and
+  Visaltanachoti]{marshall2012}
+Marshall, B.R.; Nguyen, N.H.; Visaltanachoti, N.
+\newblock Commodity Liquidity Measurement and Transaction Costs.
+\newblock {\em The Review of Financial Studies} {\bf 2012}, {\em 25},~599--638.
+\newblock {\url{https://doi.org/10.1093/rfs/hhr075}}.
+
+\bibitem[Mouakhar and Roberge(2010)]{mouakhar2010}
+Mouakhar, T.; Roberge, M.
+\newblock The Optimal Approach to Futures Contract Roll in Commodity
+  Portfolios.
+\newblock {\em The Journal of Alternative Investments} {\bf 2010}, {\em
+  12},~51--60.
+\newblock {\url{https://doi.org/10.3905/jai.2010.12.3.051}}.
+
+\bibitem[de~Groot et~al.(2014)de~Groot, Karstanje, and Zhou]{degroot2014}
+de~Groot, W.; Karstanje, D.; Zhou, W.
+\newblock Exploiting Commodity Momentum along the Futures Curves.
+\newblock {\em Journal of Banking \& Finance} {\bf 2014}, {\em 48},~79--93.
+\newblock {\url{https://doi.org/10.1016/j.jbankfin.2014.08.008}}.
+
+\bibitem[DeMiguel et~al.(2009)DeMiguel, Garlappi, and Uppal]{demiguel2009}
+DeMiguel, V.; Garlappi, L.; Uppal, R.
+\newblock Optimal Versus Naive Diversification: How Inefficient Is the 1/{N}
+  Portfolio Strategy?
+\newblock {\em The Review of Financial Studies} {\bf 2009}, {\em
+  22},~1915--1953.
+\newblock {\url{https://doi.org/10.1093/rfs/hhm075}}.
+
+\bibitem[{Bloomberg Index Services Limited}()]{bloomberg2023bcom}
+{Bloomberg Index Services Limited}.
+\newblock The {Bloomberg} Commodity Index Methodology.
+\newblock Available online:
+  \url{https://assets.bbhub.io/professional/sites/10/BCOM-Methodology.pdf}
+  (accessed on 27 September 2026).
+
+\bibitem[Politis and Romano(1994)]{politis1994}
+Politis, D.N.; Romano, J.P.
+\newblock The Stationary Bootstrap.
+\newblock {\em Journal of the American Statistical Association} {\bf 1994},
+  {\em 89},~1303--1313.
+\newblock {\url{https://doi.org/10.1080/01621459.1994.10476870}}.
+
+\bibitem[Ang et~al.(2006)Ang, Hodrick, Xing, and Zhang]{ang2006}
+Ang, A.; Hodrick, R.J.; Xing, Y.; Zhang, X.
+\newblock The Cross-Section of Volatility and Expected Returns.
+\newblock {\em The Journal of Finance} {\bf 2006}, {\em 61},~259--299.
+\newblock {\url{https://doi.org/10.1111/j.1540-6261.2006.00836.x}}.
+
+\bibitem[Frazzini and Pedersen(2014)]{frazzini2014}
+Frazzini, A.; Pedersen, L.H.
+\newblock Betting against Beta.
+\newblock {\em Journal of Financial Economics} {\bf 2014}, {\em 111},~1--25.
+\newblock {\url{https://doi.org/10.1016/j.jfineco.2013.10.005}}.
+
+\bibitem[Fan et~al.(2022)Fan, Kearney, Li, and Liu]{fan2022}
+Fan, M.; Kearney, F.; Li, Y.; Liu, J.
+\newblock Momentum and the Cross-Section of Stock Volatility.
+\newblock {\em Journal of Economic Dynamics and Control} {\bf 2022}, {\em
+  144},~104524.
+\newblock {\url{https://doi.org/10.1016/j.jedc.2022.104524}}.
+
+\bibitem[Hollstein et~al.(2021)Hollstein, Prokopczuk, and
+  Tharann]{hollstein2021}
+Hollstein, F.; Prokopczuk, M.; Tharann, B.
+\newblock Anomalies in Commodity Futures Markets.
+\newblock {\em The Quarterly Journal of Finance} {\bf 2021}, {\em 11},~2150017.
+\newblock {\url{https://doi.org/10.1142/S2010139221500178}}.
+
+\bibitem[Koijen et~al.(2018)Koijen, Moskowitz, Pedersen, and Vrugt]{koijen2018}
+Koijen, R.S.J.; Moskowitz, T.J.; Pedersen, L.H.; Vrugt, E.B.
+\newblock Carry.
+\newblock {\em Journal of Financial Economics} {\bf 2018}, {\em 127},~197--225.
+\newblock {\url{https://doi.org/10.1016/j.jfineco.2017.11.002}}.
+
+\end{thebibliography}

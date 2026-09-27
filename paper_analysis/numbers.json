@@ -1,0 +1,2175 @@
+{
+ "sessions_total_raw": 6969,
+ "holidays_dropped": 247,
+ "sessions_clean": 6722,
+ "eval_start": "2001-01-05",
+ "eval_end": "2026-09-17",
+ "eval_sessions": 6469,
+ "eval_years": 25.67,
+ "generic_vs_tr_CL1": {
+  "generic_price_return": 2.5991471215351813,
+  "tr_return": 0.45987915632302157
+ },
+ "generic_vs_tr_NG1": {
+  "generic_price_return": -0.6805710461744368,
+  "tr_return": -0.9997996382319262
+ },
+ "generic_vs_tr_GC1": {
+  "generic_price_return": 15.203427719821164,
+  "tr_return": 12.41643408506948
+ },
+ "cl1_2020_04_20": -37.63,
+ "libor_last_change": "2024-09-30",
+ "assets": [
+  {
+   "Commodity": "WTI Crude Oil",
+   "Index": "BCOMCLTR",
+   "CAGR": 0.01484792437843474,
+   "Vol": 0.3842519997920282,
+   "Sharpe": 0.23239091975006176,
+   "MaxDD": -0.9762249452282965
+  },
+  {
+   "Commodity": "Brent Crude Oil",
+   "Index": "BCOMCOT",
+   "CAGR": 0.0850467872469527,
+   "Vol": 0.343832372584793,
+   "Sharpe": 0.4104777041433762,
+   "MaxDD": -0.9070929895791551
+  },
+  {
+   "Commodity": "Gold",
+   "Index": "BCOMGCTR",
+   "CAGR": 0.10643809840005858,
+   "Vol": 0.17917701139388986,
+   "Sharpe": 0.6543953378852413,
+   "MaxDD": -0.4574048244529165
+  },
+  {
+   "Commodity": "Natural Gas",
+   "Index": "BCOMNGTR",
+   "CAGR": -0.28230959896955077,
+   "Vol": 0.490276755401552,
+   "Sharpe": -0.4306866854144918,
+   "MaxDD": -0.9998271826152451
+  },
+  {
+   "Commodity": "Soybeans",
+   "Index": "BCOMSYTR",
+   "CAGR": 0.07570672739516882,
+   "Vol": 0.2249646154300035,
+   "Sharpe": 0.43700515540699486,
+   "MaxDD": -0.5248621033563332
+  },
+  {
+   "Commodity": "Silver",
+   "Index": "BCOMSITR",
+   "CAGR": 0.0981089579754082,
+   "Vol": 0.33182123565769356,
+   "Sharpe": 0.45068709658235223,
+   "MaxDD": -0.7816037028070217
+  },
+  {
+   "Commodity": "Aluminium",
+   "Index": "BCOMALTR",
+   "CAGR": 0.008673098546784663,
+   "Vol": 0.21258955942737132,
+   "Sharpe": 0.14701684711290525,
+   "MaxDD": -0.7475497252028258
+  },
+  {
+   "Commodity": "Corn",
+   "Index": "BCOMCNTR",
+   "CAGR": -0.041252087743689825,
+   "Vol": 0.26021711975482925,
+   "Sharpe": -0.03183488988110811,
+   "MaxDD": -0.8147949084929507
+  },
+  {
+   "Commodity": "Copper",
+   "Index": "BCOMHGTR",
+   "CAGR": 0.08891254818790206,
+   "Vol": 0.2693623835925735,
+   "Sharpe": 0.45156046837385116,
+   "MaxDD": -0.6851211408599598
+  },
+  {
+   "Commodity": "BCOMTR (benchmark)",
+   "Index": "BCOMTR",
+   "CAGR": 0.02861948369166467,
+   "Vol": 0.1615357722479714,
+   "Sharpe": 0.25560003516806334,
+   "MaxDD": -0.7324837043738288
+  }
+ ],
+ "bh": {
+  "final": 206.3417540905642,
+  "cagr": 0.02861948369166467,
+  "sharpe": 0.25560003516806334,
+  "mdd": -0.7324837043738288,
+  "excess_sharpe": 0.14549907400648637
+ },
+ "liquidity": [
+  {
+   "key": "CL1",
+   "name": "WTI Crude Oil",
+   "dv_full": 44.426913680196584,
+   "doi_12m": 151.04075334367815,
+   "rank_dv": 1,
+   "rank_oi": 3
+  },
+  {
+   "key": "CO1",
+   "name": "Brent Crude Oil",
+   "dv_full": 41.414587167520445,
+   "doi_12m": 236.45392415927202,
+   "rank_dv": 2,
+   "rank_oi": 1
+  },
+  {
+   "key": "GC1",
+   "name": "Gold",
+   "dv_full": 27.77339750256852,
+   "doi_12m": 185.08634216371647,
+   "rank_dv": 3,
+   "rank_oi": 2
+  },
+  {
+   "key": "XB1",
+   "name": "RBOB Gasoline",
+   "dv_full": 13.385427767888395,
+   "doi_12m": 38.86064200410804,
+   "rank_dv": 4,
+   "rank_oi": 9
+  },
+  {
+   "key": "QS1",
+   "name": "Low Sulphur Gasoil",
+   "dv_full": 13.384327270960684,
+   "doi_12m": 86.42039652279693,
+   "rank_dv": 5,
+   "rank_oi": 4
+  },
+  {
+   "key": "HO1",
+   "name": "Heating Oil (ULSD)",
+   "dv_full": 11.001705593000516,
+   "doi_12m": 40.277160744574715,
+   "rank_dv": 6,
+   "rank_oi": 8
+  },
+  {
+   "key": "NG1",
+   "name": "Natural Gas",
+   "dv_full": 10.356616738641124,
+   "doi_12m": 54.04771875639847,
+   "rank_dv": 7,
+   "rank_oi": 6
+  },
+  {
+   "key": "S 1",
+   "name": "Soybeans",
+   "dv_full": 9.368961566664874,
+   "doi_12m": 54.700813927011495,
+   "rank_dv": 8,
+   "rank_oi": 5
+  },
+  {
+   "key": "LA1",
+   "name": "Aluminium",
+   "dv_full": 6.894976466835796,
+   "doi_12m": 38.47256152879214,
+   "rank_dv": 9,
+   "rank_oi": 10
+  },
+  {
+   "key": "SI1",
+   "name": "Silver",
+   "dv_full": 6.5262776562613,
+   "doi_12m": 43.15534550216475,
+   "rank_dv": 10,
+   "rank_oi": 7
+  },
+  {
+   "key": "C 1",
+   "name": "Corn",
+   "dv_full": 5.931272501664514,
+   "doi_12m": 38.10815689444444,
+   "rank_dv": 11,
+   "rank_oi": 11
+  },
+  {
+   "key": "HG1",
+   "name": "Copper",
+   "dv_full": 4.7757406068948205,
+   "doi_12m": 38.09042815957854,
+   "rank_dv": 12,
+   "rank_oi": 12
+  },
+  {
+   "key": "LX1",
+   "name": "Zinc",
+   "dv_full": 3.2398637294557426,
+   "doi_12m": 13.19852037034387,
+   "rank_dv": 13,
+   "rank_oi": 20
+  },
+  {
+   "key": "LN1",
+   "name": "Nickel",
+   "dv_full": 2.8509502821858663,
+   "doi_12m": 18.442671287913335,
+   "rank_dv": 14,
+   "rank_oi": 17
+  },
+  {
+   "key": "SM1",
+   "name": "Soybean Meal",
+   "dv_full": 2.779246515449849,
+   "doi_12m": 18.448893118850574,
+   "rank_dv": 15,
+   "rank_oi": 16
+  },
+  {
+   "key": "W 1",
+   "name": "Wheat (Chicago)",
+   "dv_full": 2.6559762775236764,
+   "doi_12m": 13.700004959913793,
+   "rank_dv": 16,
+   "rank_oi": 19
+  },
+  {
+   "key": "BO1",
+   "name": "Soybean Oil",
+   "dv_full": 2.4538828915815754,
+   "doi_12m": 25.20784386549425,
+   "rank_dv": 17,
+   "rank_oi": 14
+  },
+  {
+   "key": "LC1",
+   "name": "Live Cattle",
+   "dv_full": 2.4124242016946478,
+   "doi_12m": 31.284503081226056,
+   "rank_dv": 18,
+   "rank_oi": 13
+  },
+  {
+   "key": "SB1",
+   "name": "Sugar",
+   "dv_full": 1.821379354181317,
+   "doi_12m": 16.89790671786054,
+   "rank_dv": 19,
+   "rank_oi": 18
+  },
+  {
+   "key": "KC1",
+   "name": "Coffee",
+   "dv_full": 1.7125419708593415,
+   "doi_12m": 21.310786176149424,
+   "rank_dv": 20,
+   "rank_oi": 15
+  },
+  {
+   "key": "LL1",
+   "name": "Lead",
+   "dv_full": 1.1591217592837753,
+   "doi_12m": 5.325834574879311,
+   "rank_dv": 21,
+   "rank_oi": 27
+  },
+  {
+   "key": "LH1",
+   "name": "Lean Hogs",
+   "dv_full": 1.1460117018926674,
+   "doi_12m": 11.477574404521073,
+   "rank_dv": 22,
+   "rank_oi": 23
+  },
+  {
+   "key": "KW1",
+   "name": "Wheat (Kansas HRW)",
+   "dv_full": 0.9716757536267757,
+   "doi_12m": 9.083489955603449,
+   "rank_dv": 23,
+   "rank_oi": 24
+  },
+  {
+   "key": "CT1",
+   "name": "Cotton",
+   "dv_full": 0.9400259007727076,
+   "doi_12m": 11.539013113045977,
+   "rank_dv": 24,
+   "rank_oi": 22
+  },
+  {
+   "key": "FC1",
+   "name": "Feeder Cattle",
+   "dv_full": 0.864955421417707,
+   "doi_12m": 12.34303185967433,
+   "rank_dv": 25,
+   "rank_oi": 21
+  },
+  {
+   "key": "CC1",
+   "name": "Cocoa",
+   "dv_full": 0.7757030155574688,
+   "doi_12m": 7.876087502068966,
+   "rank_dv": 26,
+   "rank_oi": 25
+  },
+  {
+   "key": "PL1",
+   "name": "Platinum",
+   "dv_full": 0.7008027746082651,
+   "doi_12m": 6.644219579176244,
+   "rank_dv": 27,
+   "rank_oi": 26
+  },
+  {
+   "key": "PA1",
+   "name": "Palladium",
+   "dv_full": 0.3288603419923949,
+   "doi_12m": 2.6963995389272033,
+   "rank_dv": 28,
+   "rank_oi": 28
+  },
+  {
+   "key": "LT1",
+   "name": "Tin",
+   "dv_full": 0.2501145928644777,
+   "doi_12m": 2.5676446751423367,
+   "rank_dv": 29,
+   "rank_oi": 29
+  },
+  {
+   "key": "JO1",
+   "name": "Orange Juice",
+   "dv_full": 0.04394912354068015,
+   "doi_12m": 0.23561316209770117,
+   "rank_dv": 30,
+   "rank_oi": 30
+  }
+ ],
+ "refined_corr_with_crude": [
+  0.8734573251039842,
+  0.8725607779704675,
+  0.8279522810115433,
+  0.9076868737909296,
+  0.894713677787955,
+  0.868925308108115
+ ],
+ "n_configs": 1568,
+ "n_distinct": 1372,
+ "group_sharpe": {
+  "Top": {
+   "mean": 0.19526822733331703,
+   "median": 0.20593210873899942,
+   "max": 0.49972083364065945,
+   "min": -0.4793686756675451
+  },
+  "Median": {
+   "mean": 0.34119243600782706,
+   "median": 0.3359943243184579,
+   "max": 0.6203541784099228,
+   "min": 0.07557562748112684
+  },
+  "Worst": {
+   "mean": 0.15596751048851765,
+   "median": 0.15538367429392985,
+   "max": 0.6984437751516482,
+   "min": -0.12012753415868131
+  },
+  "Top-minus-Worst": {
+   "mean": 0.02627675703086494,
+   "median": 0.040797879777048046,
+   "max": 0.46962804037784434,
+   "min": -0.955719415846263
+  }
+ },
+ "ew_sharpe_range": [
+  0.2556907535326241,
+  0.33285012469555353
+ ],
+ "share_beat_tbill": {
+  "0": 0.8156887755102041,
+  "1": 0.7971938775510204,
+  "2": 0.7748724489795918,
+  "5": 0.7002551020408163
+ },
+ "share_beat_bh_final": {
+  "0": 0.37755102040816324,
+  "1": 0.35331632653061223,
+  "2": 0.33035714285714285,
+  "5": 0.2710459183673469
+ },
+ "best_gross": {
+  "config": [
+   "Top7",
+   "2-2-3",
+   "Daily (1d)",
+   "Daily",
+   "Worst"
+  ],
+  "sharpe": 0.6984437751516482,
+  "final": 4032.879563531884
+ },
+ "best_final_gross": {
+  "config": [
+   "Top7",
+   "3-2-2",
+   "Daily (1d)",
+   "Daily",
+   "Worst"
+  ],
+  "final": 5117.244991738736,
+  "sharpe": 0.665400390814341
+ },
+ "best_final_1bp": {
+  "config": [
+   "Top6",
+   "2-2-2",
+   "Monthly (21d)",
+   "Annual",
+   "Median"
+  ],
+  "final": 2143.2769750126927,
+  "sharpe": 0.6113199577826868
+ },
+ "best_final_2bp": {
+  "config": [
+   "Top6",
+   "2-2-2",
+   "Monthly (21d)",
+   "Annual",
+   "Median"
+  ],
+  "final": 2136.852484323992,
+  "sharpe": 0.61084323096696
+ },
+ "best_final_5bp": {
+  "config": [
+   "Top6",
+   "2-2-2",
+   "Monthly (21d)",
+   "Annual",
+   "Median"
+  ],
+  "final": 2117.688936854245,
+  "sharpe": 0.6094120028331012
+ },
+ "cost_by_freq": {
+  "Daily": {
+   "turnover": 153.23400535227105,
+   "turnover_longonly": 128.46156650032466,
+   "n_beat_bh_gross": 102,
+   "n_freq": 224,
+   "sr_lost_5bp": 0.285270601231587,
+   "median_be_bh": 2.237035117150024
+  },
+  "Weekly": {
+   "turnover": 50.17873218782597,
+   "turnover_longonly": 41.39075204695304,
+   "n_beat_bh_gross": 85,
+   "n_freq": 224,
+   "sr_lost_5bp": 0.09275612873423464,
+   "median_be_bh": 5.12679264455249
+  },
+  "Biweekly": {
+   "turnover": 29.38219092512809,
+   "turnover_longonly": 24.004702161240992,
+   "n_beat_bh_gross": 86,
+   "n_freq": 224,
+   "sr_lost_5bp": 0.05410279778953248,
+   "median_be_bh": 9.382905743657007
+  },
+  "Monthly": {
+   "turnover": 15.726350764490272,
+   "turnover_longonly": 12.739625244261768,
+   "n_beat_bh_gross": 87,
+   "n_freq": 224,
+   "sr_lost_5bp": 0.02892168327828796,
+   "median_be_bh": 13.889305239210355
+  },
+  "Quarterly": {
+   "turnover": 6.105476743568256,
+   "turnover_longonly": 4.9215615122697125,
+   "n_beat_bh_gross": 73,
+   "n_freq": 224,
+   "sr_lost_5bp": 0.011242651113348446,
+   "median_be_bh": 34.13780374532594
+  },
+  "Semiannual": {
+   "turnover": 3.3563102694042937,
+   "turnover_longonly": 2.690267463831962,
+   "n_beat_bh_gross": 95,
+   "n_freq": 224,
+   "sr_lost_5bp": 0.006189242613847017,
+   "median_be_bh": 92.33671024300452
+  },
+  "Annual": {
+   "turnover": 1.6810220490774554,
+   "turnover_longonly": 1.3386184430981307,
+   "n_beat_bh_gross": 64,
+   "n_freq": 224,
+   "sr_lost_5bp": 0.0030888258080127265,
+   "median_be_bh": 234.32783829062421
+  }
+ },
+ "noise_ceiling": [
+  {
+   "Universe": "Top6",
+   "Split": "2-2-2",
+   "Group": "Top",
+   "best_real": 0.4465524617044267,
+   "best_cfg": "Weekly (5d)/Semiannual",
+   "null_median": 0.507018632310311,
+   "ceiling": 0.612416964106634,
+   "share_null_ge": 0.9,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top6",
+   "Split": "2-2-2",
+   "Group": "Median",
+   "best_real": 0.6117965093328683,
+   "best_cfg": "Monthly (21d)/Annual",
+   "null_median": 0.516986772295214,
+   "ceiling": 0.6144019504233609,
+   "share_null_ge": 0.055,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top6",
+   "Split": "2-2-2",
+   "Group": "Worst",
+   "best_real": 0.6120055731226066,
+   "best_cfg": "Daily (1d)/Daily",
+   "null_median": 0.5097064169657548,
+   "ceiling": 0.609586632227928,
+   "share_null_ge": 0.05,
+   "n_above": 1,
+   "reps": 200
+  },
+  {
+   "Universe": "Top6",
+   "Split": "2-2-2",
+   "Group": "Top-minus-Worst",
+   "best_real": 0.43225830258519493,
+   "best_cfg": "Weekly (5d)/Semiannual",
+   "null_median": 0.4310558357096764,
+   "ceiling": 0.5717145627939522,
+   "share_null_ge": 0.485,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top7",
+   "Split": "3-2-2",
+   "Group": "Top",
+   "best_real": 0.4860666571180482,
+   "best_cfg": "Annual (252d)/Daily",
+   "null_median": 0.4860263852650296,
+   "ceiling": 0.572507001359629,
+   "share_null_ge": 0.5,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top7",
+   "Split": "3-2-2",
+   "Group": "Median",
+   "best_real": 0.5908337055927033,
+   "best_cfg": "Daily (1d)/Daily",
+   "null_median": 0.5136655852232648,
+   "ceiling": 0.619329297224035,
+   "share_null_ge": 0.14,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top7",
+   "Split": "3-2-2",
+   "Group": "Worst",
+   "best_real": 0.665400390814341,
+   "best_cfg": "Daily (1d)/Daily",
+   "null_median": 0.5096482225688487,
+   "ceiling": 0.6162057775261204,
+   "share_null_ge": 0.01,
+   "n_above": 1,
+   "reps": 200
+  },
+  {
+   "Universe": "Top7",
+   "Split": "3-2-2",
+   "Group": "Top-minus-Worst",
+   "best_real": 0.42824677164292346,
+   "best_cfg": "Weekly (5d)/Semiannual",
+   "null_median": 0.40092788268370144,
+   "ceiling": 0.5758110753494308,
+   "share_null_ge": 0.41,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top7",
+   "Split": "2-3-2",
+   "Group": "Top",
+   "best_real": 0.4704362959248008,
+   "best_cfg": "Weekly (5d)/Semiannual",
+   "null_median": 0.5116128069487479,
+   "ceiling": 0.6063560913716187,
+   "share_null_ge": 0.785,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top7",
+   "Split": "2-3-2",
+   "Group": "Median",
+   "best_real": 0.5727916549778311,
+   "best_cfg": "Monthly (21d)/Annual",
+   "null_median": 0.48800028439223636,
+   "ceiling": 0.5744871825798396,
+   "share_null_ge": 0.055,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top7",
+   "Split": "2-3-2",
+   "Group": "Worst",
+   "best_real": 0.665400390814341,
+   "best_cfg": "Daily (1d)/Daily",
+   "null_median": 0.5096482225688487,
+   "ceiling": 0.6162057775261204,
+   "share_null_ge": 0.01,
+   "n_above": 1,
+   "reps": 200
+  },
+  {
+   "Universe": "Top7",
+   "Split": "2-3-2",
+   "Group": "Top-minus-Worst",
+   "best_real": 0.46962804037784434,
+   "best_cfg": "Weekly (5d)/Semiannual",
+   "null_median": 0.41734466831745176,
+   "ceiling": 0.5627577855881367,
+   "share_null_ge": 0.275,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top7",
+   "Split": "2-2-3",
+   "Group": "Top",
+   "best_real": 0.4704362959248008,
+   "best_cfg": "Weekly (5d)/Semiannual",
+   "null_median": 0.5116128069487479,
+   "ceiling": 0.6063560913716187,
+   "share_null_ge": 0.785,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top7",
+   "Split": "2-2-3",
+   "Group": "Median",
+   "best_real": 0.5614843811576495,
+   "best_cfg": "Biweekly (10d)/Biweekly",
+   "null_median": 0.5065300043106469,
+   "ceiling": 0.6345371675142407,
+   "share_null_ge": 0.18,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top7",
+   "Split": "2-2-3",
+   "Group": "Worst",
+   "best_real": 0.6984437751516482,
+   "best_cfg": "Daily (1d)/Daily",
+   "null_median": 0.4838512092278745,
+   "ceiling": 0.5695531473982142,
+   "share_null_ge": 0.005,
+   "n_above": 1,
+   "reps": 200
+  },
+  {
+   "Universe": "Top7",
+   "Split": "2-2-3",
+   "Group": "Top-minus-Worst",
+   "best_real": 0.42993588000640587,
+   "best_cfg": "Weekly (5d)/Semiannual",
+   "null_median": 0.4097228480186601,
+   "ceiling": 0.5887182970379173,
+   "share_null_ge": 0.39,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top8",
+   "Split": "3-3-2",
+   "Group": "Top",
+   "best_real": 0.4790914908908851,
+   "best_cfg": "Weekly (5d)/Semiannual",
+   "null_median": 0.46576550037286596,
+   "ceiling": 0.5507712280759062,
+   "share_null_ge": 0.4,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top8",
+   "Split": "3-3-2",
+   "Group": "Median",
+   "best_real": 0.6025012431503929,
+   "best_cfg": "Daily (1d)/Daily",
+   "null_median": 0.4618907491152563,
+   "ceiling": 0.5504735509355386,
+   "share_null_ge": 0.01,
+   "n_above": 1,
+   "reps": 200
+  },
+  {
+   "Universe": "Top8",
+   "Split": "3-3-2",
+   "Group": "Worst",
+   "best_real": 0.5160818173583024,
+   "best_cfg": "Daily (1d)/Daily",
+   "null_median": 0.49164265122177464,
+   "ceiling": 0.6142558033321809,
+   "share_null_ge": 0.35,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top8",
+   "Split": "3-3-2",
+   "Group": "Top-minus-Worst",
+   "best_real": 0.4586668894563653,
+   "best_cfg": "Weekly (5d)/Semiannual",
+   "null_median": 0.4129330748490745,
+   "ceiling": 0.5909159935761128,
+   "share_null_ge": 0.3,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top8",
+   "Split": "3-2-3",
+   "Group": "Top",
+   "best_real": 0.4790914908908851,
+   "best_cfg": "Weekly (5d)/Semiannual",
+   "null_median": 0.46576550037286596,
+   "ceiling": 0.5507712280759062,
+   "share_null_ge": 0.4,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top8",
+   "Split": "3-2-3",
+   "Group": "Median",
+   "best_real": 0.532417886490917,
+   "best_cfg": "Semiannual (126d)/Annual",
+   "null_median": 0.4879842583828717,
+   "ceiling": 0.607087656519587,
+   "share_null_ge": 0.26,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top8",
+   "Split": "3-2-3",
+   "Group": "Worst",
+   "best_real": 0.5911486003583949,
+   "best_cfg": "Daily (1d)/Daily",
+   "null_median": 0.4703167185734649,
+   "ceiling": 0.565927738910725,
+   "share_null_ge": 0.02,
+   "n_above": 1,
+   "reps": 200
+  },
+  {
+   "Universe": "Top8",
+   "Split": "3-2-3",
+   "Group": "Top-minus-Worst",
+   "best_real": 0.4388686223750461,
+   "best_cfg": "Weekly (5d)/Semiannual",
+   "null_median": 0.40267357166692497,
+   "ceiling": 0.5875612199895288,
+   "share_null_ge": 0.38,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top8",
+   "Split": "2-3-3",
+   "Group": "Top",
+   "best_real": 0.49455551937786774,
+   "best_cfg": "Weekly (5d)/Semiannual",
+   "null_median": 0.4915463056836613,
+   "ceiling": 0.6107335156465853,
+   "share_null_ge": 0.495,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top8",
+   "Split": "2-3-3",
+   "Group": "Median",
+   "best_real": 0.4938662909403655,
+   "best_cfg": "Biweekly (10d)/Weekly",
+   "null_median": 0.46610366011829796,
+   "ceiling": 0.5711838781183721,
+   "share_null_ge": 0.29,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top8",
+   "Split": "2-3-3",
+   "Group": "Worst",
+   "best_real": 0.5911486003583949,
+   "best_cfg": "Daily (1d)/Daily",
+   "null_median": 0.4703167185734649,
+   "ceiling": 0.565927738910725,
+   "share_null_ge": 0.02,
+   "n_above": 1,
+   "reps": 200
+  },
+  {
+   "Universe": "Top8",
+   "Split": "2-3-3",
+   "Group": "Top-minus-Worst",
+   "best_real": 0.46324321076291497,
+   "best_cfg": "Weekly (5d)/Semiannual",
+   "null_median": 0.41810991893950944,
+   "ceiling": 0.5842062491949307,
+   "share_null_ge": 0.34,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top9",
+   "Split": "3-3-3",
+   "Group": "Top",
+   "best_real": 0.49972083364065945,
+   "best_cfg": "Weekly (5d)/Semiannual",
+   "null_median": 0.5103088348720606,
+   "ceiling": 0.6036360820318591,
+   "share_null_ge": 0.575,
+   "n_above": 0,
+   "reps": 200
+  },
+  {
+   "Universe": "Top9",
+   "Split": "3-3-3",
+   "Group": "Median",
+   "best_real": 0.6203541784099228,
+   "best_cfg": "Biweekly (10d)/Weekly",
+   "null_median": 0.5075510195919981,
+   "ceiling": 0.5956394474851974,
+   "share_null_ge": 0.035,
+   "n_above": 1,
+   "reps": 200
+  },
+  {
+   "Universe": "Top9",
+   "Split": "3-3-3",
+   "Group": "Worst",
+   "best_real": 0.6724493042131789,
+   "best_cfg": "Daily (1d)/Daily",
+   "null_median": 0.5142228359162353,
+   "ceiling": 0.6056686377895132,
+   "share_null_ge": 0.0,
+   "n_above": 1,
+   "reps": 200
+  },
+  {
+   "Universe": "Top9",
+   "Split": "3-3-3",
+   "Group": "Top-minus-Worst",
+   "best_real": 0.4241805526207846,
+   "best_cfg": "Weekly (5d)/Semiannual",
+   "null_median": 0.41096888368668744,
+   "ceiling": 0.5553558289272029,
+   "share_null_ge": 0.4,
+   "n_above": 0,
+   "reps": 200
+  }
+ ],
+ "noise_close": [
+  {
+   "Universe": "Top6",
+   "Split": "2-2-2",
+   "Group": "Median",
+   "best_real": 0.6117965093328683,
+   "ceiling": 0.6144019504233609
+  },
+  {
+   "Universe": "Top6",
+   "Split": "2-2-2",
+   "Group": "Worst",
+   "best_real": 0.6120055731226066,
+   "ceiling": 0.609586632227928
+  },
+  {
+   "Universe": "Top7",
+   "Split": "2-3-2",
+   "Group": "Median",
+   "best_real": 0.5727916549778311,
+   "ceiling": 0.5744871825798396
+  }
+ ],
+ "noise_above_summary": {
+  "Top": 0,
+  "Median": 2,
+  "Worst": 7,
+  "Top-minus-Worst": 0
+ },
+ "white_rc_p": 0.3856,
+ "spa_p": 0.024,
+ "spa_best_t": 3.9551322710009327,
+ "spa_best_cfg": [
+  "Top7",
+  "2-2-3",
+  "Daily (1d)",
+  "Daily",
+  "Worst"
+ ],
+ "dsr": {
+  "config": [
+   "Top7",
+   "2-2-3",
+   "Daily (1d)",
+   "Daily",
+   "Worst"
+  ],
+  "sharpe_ann": 0.6984437751516482,
+  "expected_max_sr_ann": 0.631099608884536,
+  "dsr": 0.632188803431392,
+  "n_trials": 1568
+ },
+ "dsr_distinct": 0.6451291616334197,
+ "pbo": {
+  "S": 16,
+  "combinations": 12870,
+  "pbo": 0.3486402486402486,
+  "median_logit": 0.73357617055559
+ },
+ "median_membership_monthly21": {
+  "Top6": {
+   "WTI Crude Oil": 0.32362459546925565,
+   "Brent Crude Oil": 0.43042071197411,
+   "Gold": 0.4045307443365696,
+   "Natural Gas": 0.1941747572815534,
+   "Soybeans": 0.3656957928802589,
+   "Silver": 0.2815533980582524
+  },
+  "Top9": {
+   "WTI Crude Oil": 0.2621359223300971,
+   "Brent Crude Oil": 0.3074433656957929,
+   "Gold": 0.4401294498381877,
+   "Natural Gas": 0.1715210355987055,
+   "Soybeans": 0.37216828478964403,
+   "Silver": 0.29449838187702265,
+   "Aluminium": 0.4563106796116505,
+   "Corn": 0.29449838187702265,
+   "Copper": 0.40129449838187703
+  }
+ },
+ "median_membership_expected": {
+  "Top6": 0.3333333333333333,
+  "Top9": 0.3333333333333333
+ },
+ "mean_vol_by_group": {
+  "Median": 0.2184069532011136,
+  "Top": 0.26155828742315673,
+  "Worst": 0.2724234875212192
+ },
+ "median_beats_ew_cells": 0.6785714285714286,
+ "top_beats_ew_cells": 0.22193877551020408,
+ "worst_beats_ew_cells": 0.11989795918367346,
+ "ew_ex_natgas_sharpe": {
+  "Top6": [
+   0.554831322158756,
+   0.5774144808691554
+  ],
+  "Top7": [
+   0.5258365988311927,
+   0.5524758273906326
+  ],
+  "Top8": [
+   0.4639471869006468,
+   0.49322839447547473
+  ],
+  "Top9": [
+   0.4941906903662499,
+   0.5229493505486922
+  ]
+ },
+ "median_mean_sharpe_by_universe": {
+  "Top6": 0.356506867139912,
+  "Top7": 0.3488652794724487,
+  "Top8": 0.32294978800887586,
+  "Top9": 0.35758741847873005
+ },
+ "reversal": {
+  "Top6_worst2": {
+   "lag0": {
+    "sharpe": 0.6120055731226072,
+    "final": 3645.376301799566
+   },
+   "lag1": {
+    "sharpe": 0.16105164197825902,
+    "final": 110.85782017137569
+   },
+   "lag2": {
+    "sharpe": 0.2202686582396248,
+    "final": 170.7897261756718
+   }
+  },
+  "Top7_worst2": {
+   "lag0": {
+    "sharpe": 0.6654003908143415,
+    "final": 5117.244991738753
+   },
+   "lag1": {
+    "sharpe": 0.1577726257983493,
+    "final": 110.84068553767806
+   },
+   "lag2": {
+    "sharpe": 0.18569379550026544,
+    "final": 134.4331686240491
+   }
+  },
+  "Top7_worst3": {
+   "lag0": {
+    "sharpe": 0.6984437751517015,
+    "final": 4032.879563533321
+   },
+   "lag1": {
+    "sharpe": 0.2728432154682777,
+    "final": 257.2625680766392
+   },
+   "lag2": {
+    "sharpe": 0.1993525513681966,
+    "final": 161.07456437430872
+   }
+  },
+  "Top9_worst3": {
+   "lag0": {
+    "sharpe": 0.6724493042132349,
+    "final": 3364.800050877741
+   },
+   "lag1": {
+    "sharpe": 0.33741660422219577,
+    "final": 389.18416555893145
+   },
+   "lag2": {
+    "sharpe": 0.16444713196182467,
+    "final": 129.05736044516345
+   }
+  },
+  "US7_worst2": {
+   "lag0": {
+    "sharpe": 0.5464524450026247,
+    "final": 1851.3145118802938
+   },
+   "lag1": {
+    "sharpe": 0.15554657361064556,
+    "final": 113.0570788692407
+   }
+  }
+ },
+ "reversal_grid": {
+  "sr0": [
+   0.5160818173583024,
+   0.6984437751516482
+  ],
+  "sr1": [
+   0.39032600668993983,
+   0.5797578674964333
+  ],
+  "sr2": [
+   0.26458199018390194,
+   0.4610773651901417
+  ],
+  "sr5": [
+   -0.11253943680421381,
+   0.10510765723284435
+  ],
+  "turn": [
+   298.87518622835717,
+   374.9202170925339
+  ],
+  "be_bh": [
+   2.153052666305209,
+   3.8749416812567405
+  ],
+  "be_cash_bp": [
+   3.6301471000507286,
+   5.290934265947298
+  ]
+ },
+ "luck_summary": {
+  "Annual": {
+   "median_range": 0.42344216038992283,
+   "share_calendar_best": 0.05357142857142857
+  },
+  "Semiannual": {
+   "median_range": 0.3782821483652071,
+   "share_calendar_best": 0.11607142857142858
+  },
+  "Quarterly": {
+   "median_range": 0.1501238702349382,
+   "share_calendar_best": 0.26785714285714285
+  },
+  "Biweekly": {
+   "median_range": 0.07384509932468565,
+   "share_calendar_best": 0.5089285714285714
+  }
+ },
+ "star_other11_mean_sr": 0.33196223833121885,
+ "star_1bp": {
+  "dec": 2143.2769750127086,
+  "min_other": 114.64657193193668,
+  "max_other": 1297.04032391177
+ },
+ "star_by_month": [
+  {
+   "month": "January",
+   "sharpe": 0.5180395020947735,
+   "final": 1301.6529616017997
+  },
+  {
+   "month": "February",
+   "sharpe": 0.3804881042504259,
+   "final": 545.2215266324187
+  },
+  {
+   "month": "March",
+   "sharpe": 0.25398230666248256,
+   "final": 228.2565745398787
+  },
+  {
+   "month": "April",
+   "sharpe": 0.5211287821153416,
+   "final": 1163.5487694667074
+  },
+  {
+   "month": "May",
+   "sharpe": 0.3110794858409462,
+   "final": 327.4969445989058
+  },
+  {
+   "month": "June",
+   "sharpe": 0.15698810367614702,
+   "final": 115.10554547879694
+  },
+  {
+   "month": "July",
+   "sharpe": 0.3714386089662127,
+   "final": 504.15921600381165
+  },
+  {
+   "month": "August",
+   "sharpe": 0.4213362767209834,
+   "final": 700.1670407334617
+  },
+  {
+   "month": "September",
+   "sharpe": 0.27585826340941394,
+   "final": 262.43540818016527
+  },
+  {
+   "month": "October",
+   "sharpe": 0.26904128356483487,
+   "final": 247.85295432529026
+  },
+  {
+   "month": "November",
+   "sharpe": 0.172203904341846,
+   "final": 140.005438939107
+  },
+  {
+   "month": "December",
+   "sharpe": 0.6117965093328683,
+   "final": 2149.719869715526
+  }
+ ],
+ "top_annual_offsets": [
+  {
+   "Universe": "Top6",
+   "Split": "2-2-2",
+   "Lookback": "Monthly (21d)",
+   "Group": "Median",
+   "sr_calendar": 0.6117965093328683,
+   "sr_min": 0.15698810367614702,
+   "sr_mean": 0.35528176091468966,
+   "sr_max": 0.6117965093328683,
+   "calendar_rank": 1
+  },
+  {
+   "Universe": "Top7",
+   "Split": "2-3-2",
+   "Lookback": "Monthly (21d)",
+   "Group": "Median",
+   "sr_calendar": 0.5727916549778311,
+   "sr_min": 0.19474017918868225,
+   "sr_mean": 0.35874114162753007,
+   "sr_max": 0.5727916549778311,
+   "calendar_rank": 1
+  },
+  {
+   "Universe": "Top7",
+   "Split": "2-2-3",
+   "Lookback": "Monthly (21d)",
+   "Group": "Median",
+   "sr_calendar": 0.55629065405329,
+   "sr_min": 0.053395614996546686,
+   "sr_mean": 0.3150802827224602,
+   "sr_max": 0.55629065405329,
+   "calendar_rank": 1
+  },
+  {
+   "Universe": "Top7",
+   "Split": "2-2-3",
+   "Lookback": "Semiannual (126d)",
+   "Group": "Median",
+   "sr_calendar": 0.5418615276727203,
+   "sr_min": 0.13106929032016845,
+   "sr_mean": 0.3278647749955521,
+   "sr_max": 0.5418615276727203,
+   "calendar_rank": 1
+  },
+  {
+   "Universe": "Top8",
+   "Split": "3-2-3",
+   "Lookback": "Semiannual (126d)",
+   "Group": "Median",
+   "sr_calendar": 0.532417886490917,
+   "sr_min": 0.0008420250972936336,
+   "sr_mean": 0.35194804766054694,
+   "sr_max": 0.5577713698964893,
+   "calendar_rank": 2
+  },
+  {
+   "Universe": "Top7",
+   "Split": "2-3-2",
+   "Lookback": "Semiannual (126d)",
+   "Group": "Median",
+   "sr_calendar": 0.5298697804022491,
+   "sr_min": 0.22829587289472936,
+   "sr_mean": 0.39274211961727973,
+   "sr_max": 0.5298697804022491,
+   "calendar_rank": 1
+  },
+  {
+   "Universe": "Top8",
+   "Split": "3-3-2",
+   "Lookback": "Monthly (21d)",
+   "Group": "Median",
+   "sr_calendar": 0.5192936282155144,
+   "sr_min": 0.07455207774925357,
+   "sr_mean": 0.33872888022912195,
+   "sr_max": 0.5459752920967723,
+   "calendar_rank": 3
+  },
+  {
+   "Universe": "Top7",
+   "Split": "3-2-2",
+   "Lookback": "Monthly (21d)",
+   "Group": "Median",
+   "sr_calendar": 0.5166579608595389,
+   "sr_min": 0.04342043848761635,
+   "sr_mean": 0.33236801824734724,
+   "sr_max": 0.5166579608595389,
+   "calendar_rank": 1
+  },
+  {
+   "Universe": "Top9",
+   "Split": "3-3-3",
+   "Lookback": "Monthly (21d)",
+   "Group": "Median",
+   "sr_calendar": 0.4982824576443915,
+   "sr_min": 0.204351692034061,
+   "sr_mean": 0.3896934624334458,
+   "sr_max": 0.6052043395288284,
+   "calendar_rank": 2
+  },
+  {
+   "Universe": "Top8",
+   "Split": "3-3-2",
+   "Lookback": "Annual (252d)",
+   "Group": "Median",
+   "sr_calendar": 0.4906219384304819,
+   "sr_min": 0.1789593569027038,
+   "sr_mean": 0.39750730879545193,
+   "sr_max": 0.5252375878747011,
+   "calendar_rank": 4
+  }
+ ],
+ "wf_split": [
+  {
+   "config": [
+    "Top8",
+    "2-3-3",
+    "Weekly (5d)",
+    "Semiannual",
+    "Top-minus-Worst"
+   ],
+   "sr_in": 0.9164576013133543,
+   "sr_out": 0.07864322690671713,
+   "final_out": 71.22704928880414,
+   "rank_out": 1005
+  },
+  {
+   "config": [
+    "Top9",
+    "3-3-3",
+    "Weekly (5d)",
+    "Semiannual",
+    "Top-minus-Worst"
+   ],
+   "sr_in": 0.8999432942622198,
+   "sr_out": -0.0009623789453257079,
+   "final_out": 59.96380213740942,
+   "rank_out": 1222
+  },
+  {
+   "config": [
+    "Top9",
+    "3-3-3",
+    "Weekly (5d)",
+    "Semiannual",
+    "Top"
+   ],
+   "sr_in": 0.8788581392380339,
+   "sr_out": 0.10619453213638831,
+   "final_out": 96.66005767927773,
+   "rank_out": 910
+  },
+  {
+   "config": [
+    "Top7",
+    "2-2-3",
+    "Weekly (5d)",
+    "Semiannual",
+    "Top-minus-Worst"
+   ],
+   "sr_in": 0.8634963763992859,
+   "sr_out": 0.05675565100453563,
+   "final_out": 65.42269822644649,
+   "rank_out": 1058
+  },
+  {
+   "config": [
+    "Top7",
+    "2-3-2",
+    "Weekly (5d)",
+    "Semiannual",
+    "Top"
+   ],
+   "sr_in": 0.8571813930783135,
+   "sr_out": 0.12240794249487946,
+   "final_out": 93.16600312643486,
+   "rank_out": 837
+  }
+ ],
+ "wf_split_bh": {
+  "final_out": 149.07682676604068,
+  "sr_out": 0.28870724725994684
+ },
+ "wf_split_median_oos_sr": 0.14325936962260738,
+ "wf_annual": {
+  "0": {
+   "final": 134.9896546540905,
+   "sharpe": 0.19098954103702054,
+   "start": 2006,
+   "n_distinct": 6,
+   "bh_final": 122.685649276775,
+   "bh_sharpe": 0.1423550026093208
+  },
+  "2": {
+   "final": 46.78298094579731,
+   "sharpe": 0.02019084215727857,
+   "start": 2006,
+   "n_distinct": 6,
+   "bh_final": 122.685649276775,
+   "bh_sharpe": 0.1423550026093208
+  }
+ },
+ "screen": [
+  {
+   "Series": "Soybean Oil (BO1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6886,
+   "Open = low": 594,
+   "Open = high": 714,
+   "Low/high ratio": 0.8319327731092437,
+   "Binomial p": 0.0009932789351836497,
+   "Mean open position (0.5 = unbiased)": 0.5105901406412289,
+   "Open outside range %": 0.39209991286668605,
+   "Open = previous close %": 14.72553006099332,
+   "Sector": "Grains",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Corn (C 1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6961,
+   "Open = low": 443,
+   "Open = high": 326,
+   "Low/high ratio": 1.3588957055214723,
+   "Binomial p": 2.78208286653992e-05,
+   "Mean open position (0.5 = unbiased)": 0.48069871369759937,
+   "Open outside range %": 0.086194512282718,
+   "Open = previous close %": 19.738543312742422,
+   "Sector": "Grains",
+   "Flag": "FAIL"
+  },
+  {
+   "Series": "Cocoa (CC1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6304,
+   "Open = low": 798,
+   "Open = high": 837,
+   "Low/high ratio": 0.953405017921147,
+   "Binomial p": 0.34733495414189136,
+   "Mean open position (0.5 = unbiased)": 0.5008457391718834,
+   "Open outside range %": 0.36484771573604063,
+   "Open = previous close %": 7.630076142131979,
+   "Sector": "Softs",
+   "Flag": "pass"
+  },
+  {
+   "Series": "WTI Crude Oil (CL1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6968,
+   "Open = low": 126,
+   "Open = high": 115,
+   "Low/high ratio": 1.0956521739130434,
+   "Binomial p": 0.5195592474984537,
+   "Mean open position (0.5 = unbiased)": 0.5010594892995187,
+   "Open outside range %": 0.10045924225028703,
+   "Open = previous close %": 4.104477611940299,
+   "Sector": "Energy",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Brent Crude Oil (CO1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6968,
+   "Open = low": 218,
+   "Open = high": 207,
+   "Low/high ratio": 1.0531400966183575,
+   "Binomial p": 0.6276776288937111,
+   "Mean open position (0.5 = unbiased)": 0.5004657270109283,
+   "Open outside range %": 0.04305396096440872,
+   "Open = previous close %": 3.6165327210103326,
+   "Sector": "Energy",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Cotton (CT1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6649,
+   "Open = low": 760,
+   "Open = high": 785,
+   "Low/high ratio": 0.9681528662420382,
+   "Binomial p": 0.5414872451691506,
+   "Mean open position (0.5 = unbiased)": 0.49903884155087147,
+   "Open outside range %": 0.09023913370431644,
+   "Open = previous close %": 10.437659798465933,
+   "Sector": "Softs",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Feeder Cattle (FC1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6955,
+   "Open = low": 500,
+   "Open = high": 579,
+   "Low/high ratio": 0.8635578583765112,
+   "Binomial p": 0.017529174384301995,
+   "Mean open position (0.5 = unbiased)": 0.5090850755179763,
+   "Open outside range %": 0.46010064701653486,
+   "Open = previous close %": 7.074047447879224,
+   "Sector": "Livestock",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Gold (GC1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6867,
+   "Open = low": 577,
+   "Open = high": 545,
+   "Low/high ratio": 1.0587155963302752,
+   "Binomial p": 0.3547234180381029,
+   "Mean open position (0.5 = unbiased)": 0.49548541168188054,
+   "Open outside range %": 0.218435998252512,
+   "Open = previous close %": 4.295907965632736,
+   "Sector": "Precious Metals",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Copper (HG1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6960,
+   "Open = low": 605,
+   "Open = high": 561,
+   "Low/high ratio": 1.0784313725490196,
+   "Binomial p": 0.20791347723832143,
+   "Mean open position (0.5 = unbiased)": 0.49715204778687644,
+   "Open outside range %": 0.2729885057471264,
+   "Open = previous close %": 7.456896551724138,
+   "Sector": "Industrial Metals",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Heating Oil (ULSD) (HO1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6969,
+   "Open = low": 217,
+   "Open = high": 222,
+   "Low/high ratio": 0.9774774774774775,
+   "Binomial p": 0.848623881995494,
+   "Mean open position (0.5 = unbiased)": 0.4984198742486012,
+   "Open outside range %": 0.6457167455876023,
+   "Open = previous close %": 4.9217965274788344,
+   "Sector": "Energy",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Orange Juice (JO1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6722,
+   "Open = low": 809,
+   "Open = high": 852,
+   "Low/high ratio": 0.9495305164319249,
+   "Binomial p": 0.3027555217356939,
+   "Mean open position (0.5 = unbiased)": 0.504908312373944,
+   "Open outside range %": 0.1487652484379649,
+   "Open = previous close %": 9.922642070812259,
+   "Sector": "Softs",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Coffee (KC1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6592,
+   "Open = low": 704,
+   "Open = high": 896,
+   "Low/high ratio": 0.7857142857142857,
+   "Binomial p": 1.7490335785855729e-06,
+   "Mean open position (0.5 = unbiased)": 0.5198088051872454,
+   "Open outside range %": 0.28822815533980584,
+   "Open = previous close %": 7.70631067961165,
+   "Sector": "Softs",
+   "Flag": "FAIL"
+  },
+  {
+   "Series": "Wheat (Kansas HRW) (KW1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6798,
+   "Open = low": 653,
+   "Open = high": 557,
+   "Low/high ratio": 1.1723518850987433,
+   "Binomial p": 0.006289853979078034,
+   "Mean open position (0.5 = unbiased)": 0.4856922416620631,
+   "Open outside range %": 1.500441306266549,
+   "Open = previous close %": 12.724330685495733,
+   "Sector": "Grains",
+   "Flag": "FAIL"
+  },
+  {
+   "Series": "Aluminium (LA1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 5636,
+   "Open = low": 1266,
+   "Open = high": 1315,
+   "Low/high ratio": 0.9627376425855513,
+   "Binomial p": 0.3447545063640734,
+   "Mean open position (0.5 = unbiased)": -1.4640360980036922,
+   "Open outside range %": 6.973030518097942,
+   "Open = previous close %": 1.7743080198722498,
+   "Sector": "Industrial Metals",
+   "Flag": "FAIL"
+  },
+  {
+   "Series": "Live Cattle (LC1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6952,
+   "Open = low": 357,
+   "Open = high": 440,
+   "Low/high ratio": 0.8113636363636364,
+   "Binomial p": 0.003650812165634193,
+   "Mean open position (0.5 = unbiased)": 0.5014987337202771,
+   "Open outside range %": 0.4890678941311853,
+   "Open = previous close %": 8.299769850402763,
+   "Sector": "Livestock",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Lean Hogs (LH1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6966,
+   "Open = low": 396,
+   "Open = high": 473,
+   "Low/high ratio": 0.8372093023255814,
+   "Binomial p": 0.009893683163283281,
+   "Mean open position (0.5 = unbiased)": 0.5145676660979208,
+   "Open outside range %": 0.6316393913293138,
+   "Open = previous close %": 6.345104794717198,
+   "Sector": "Livestock",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Lead (LL1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 4165,
+   "Open = low": 1300,
+   "Open = high": 1347,
+   "Low/high ratio": 0.9651076466221232,
+   "Binomial p": 0.3712771827476509,
+   "Mean open position (0.5 = unbiased)": -0.268320291734688,
+   "Open outside range %": 6.626650660264105,
+   "Open = previous close %": 1.3925570228091237,
+   "Sector": "Industrial Metals",
+   "Flag": "FAIL"
+  },
+  {
+   "Series": "Nickel (LN1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 4986,
+   "Open = low": 1727,
+   "Open = high": 1366,
+   "Low/high ratio": 1.2642752562225477,
+   "Binomial p": 9.155761880199237e-11,
+   "Mean open position (0.5 = unbiased)": -2.0282661061761824,
+   "Open outside range %": 7.661452065784196,
+   "Open = previous close %": 1.4039310068190936,
+   "Sector": "Industrial Metals",
+   "Flag": "FAIL"
+  },
+  {
+   "Series": "Tin (LT1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 2349,
+   "Open = low": 885,
+   "Open = high": 905,
+   "Low/high ratio": 0.9779005524861878,
+   "Binomial p": 0.6533834846997033,
+   "Mean open position (0.5 = unbiased)": 4.557200480788274,
+   "Open outside range %": 7.705406555981269,
+   "Open = previous close %": 2.38399318859089,
+   "Sector": "Industrial Metals",
+   "Flag": "FAIL"
+  },
+  {
+   "Series": "Zinc (LX1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 5153,
+   "Open = low": 1363,
+   "Open = high": 1401,
+   "Low/high ratio": 0.9728765167737331,
+   "Binomial p": 0.4815807234097426,
+   "Mean open position (0.5 = unbiased)": 0.9363692882598349,
+   "Open outside range %": 8.42227828449447,
+   "Open = previous close %": 1.1449640985833496,
+   "Sector": "Industrial Metals",
+   "Flag": "FAIL"
+  },
+  {
+   "Series": "Natural Gas (NG1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6969,
+   "Open = low": 119,
+   "Open = high": 152,
+   "Low/high ratio": 0.7828947368421053,
+   "Binomial p": 0.051711381923684234,
+   "Mean open position (0.5 = unbiased)": 0.5132241930294765,
+   "Open outside range %": 0.7748600947051227,
+   "Open = previous close %": 3.056392595781317,
+   "Sector": "Energy",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Palladium (PA1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6254,
+   "Open = low": 876,
+   "Open = high": 871,
+   "Low/high ratio": 1.0057405281285878,
+   "Binomial p": 0.9237621561342938,
+   "Mean open position (0.5 = unbiased)": 0.4919381085224975,
+   "Open outside range %": 0.2878157978893508,
+   "Open = previous close %": 3.277902142628718,
+   "Sector": "Precious Metals",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Platinum (PL1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6501,
+   "Open = low": 874,
+   "Open = high": 798,
+   "Low/high ratio": 1.0952380952380953,
+   "Binomial p": 0.06659446360494309,
+   "Mean open position (0.5 = unbiased)": 0.49480492893219274,
+   "Open outside range %": 0.36917397323488693,
+   "Open = previous close %": 3.2610367635748343,
+   "Sector": "Precious Metals",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Low Sulphur Gasoil (QS1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6968,
+   "Open = low": 422,
+   "Open = high": 370,
+   "Low/high ratio": 1.1405405405405404,
+   "Binomial p": 0.06988705261353702,
+   "Mean open position (0.5 = unbiased)": 0.49771700501554955,
+   "Open outside range %": 0.1722158438576349,
+   "Open = previous close %": 3.989667049368542,
+   "Sector": "Energy",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Soybeans (S 1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6942,
+   "Open = low": 499,
+   "Open = high": 319,
+   "Low/high ratio": 1.5642633228840126,
+   "Binomial p": 3.3134119540097416e-10,
+   "Mean open position (0.5 = unbiased)": 0.45919346870804406,
+   "Open outside range %": 0.12964563526361278,
+   "Open = previous close %": 11.855373091328147,
+   "Sector": "Grains",
+   "Flag": "FAIL"
+  },
+  {
+   "Series": "Sugar (SB1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6969,
+   "Open = low": 353,
+   "Open = high": 347,
+   "Low/high ratio": 1.0172910662824208,
+   "Binomial p": 0.8501237785062915,
+   "Mean open position (0.5 = unbiased)": 0.5061620032775059,
+   "Open outside range %": 0.028698522026115655,
+   "Open = previous close %": 14.650595494332041,
+   "Sector": "Softs",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Silver (SI1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6814,
+   "Open = low": 656,
+   "Open = high": 603,
+   "Low/high ratio": 1.087893864013267,
+   "Binomial p": 0.14274992516366877,
+   "Mean open position (0.5 = unbiased)": 0.4991098125611829,
+   "Open outside range %": 0.2788376871147637,
+   "Open = previous close %": 3.566187261520399,
+   "Sector": "Precious Metals",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Soybean Meal (SM1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6935,
+   "Open = low": 517,
+   "Open = high": 579,
+   "Low/high ratio": 0.8929188255613126,
+   "Binomial p": 0.06534241852019311,
+   "Mean open position (0.5 = unbiased)": 0.4906278072673391,
+   "Open outside range %": 0.18745493871665464,
+   "Open = previous close %": 18.673395818312905,
+   "Sector": "Grains",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Wheat (Chicago) (W 1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 6911,
+   "Open = low": 472,
+   "Open = high": 440,
+   "Low/high ratio": 1.0727272727272728,
+   "Binomial p": 0.30464772606048107,
+   "Mean open position (0.5 = unbiased)": 0.5030250667700904,
+   "Open outside range %": 0.04340905802344089,
+   "Open = previous close %": 13.051656779047896,
+   "Sector": "Grains",
+   "Flag": "pass"
+  },
+  {
+   "Series": "RBOB Gasoline (XB1 Comdty)",
+   "Source": "Bloomberg generic 1st",
+   "Sessions (H>L)": 5348,
+   "Open = low": 178,
+   "Open = high": 193,
+   "Low/high ratio": 0.9222797927461139,
+   "Binomial p": 0.467369231011055,
+   "Mean open position (0.5 = unbiased)": 0.49804549845348484,
+   "Open outside range %": 0.13089005235602094,
+   "Open = previous close %": 3.1039640987284964,
+   "Sector": "Energy",
+   "Flag": "pass"
+  },
+  {
+   "Series": "U.S. Dollar Index futures (DX)",
+   "Source": "Barchart, exchange sourced",
+   "Sessions (H>L)": 3888,
+   "Open = low": 64,
+   "Open = high": 60,
+   "Low/high ratio": 1.0666666666666667,
+   "Binomial p": 0.7877465824023692,
+   "Mean open position (0.5 = unbiased)": 0.49900341751642496,
+   "Open outside range %": 0.0,
+   "Open = previous close %": 1.3117283950617282,
+   "Sector": "FX",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Euro futures (E6)",
+   "Source": "Barchart, exchange sourced",
+   "Sessions (H>L)": 3800,
+   "Open = low": 21,
+   "Open = high": 20,
+   "Low/high ratio": 1.05,
+   "Binomial p": 0.9999999999999936,
+   "Mean open position (0.5 = unbiased)": 0.5003092675918007,
+   "Open outside range %": 0.0,
+   "Open = previous close %": 4.157894736842105,
+   "Sector": "FX",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Sterling futures (B6)",
+   "Source": "Barchart, exchange sourced",
+   "Sessions (H>L)": 3800,
+   "Open = low": 41,
+   "Open = high": 21,
+   "Low/high ratio": 1.9523809523809523,
+   "Binomial p": 0.015134080997446932,
+   "Mean open position (0.5 = unbiased)": 0.5018183507207056,
+   "Open outside range %": 0.0,
+   "Open = previous close %": 4.447368421052632,
+   "Sector": "FX",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Canadian dollar futures (D6)",
+   "Source": "Barchart, exchange sourced",
+   "Sessions (H>L)": 3800,
+   "Open = low": 40,
+   "Open = high": 50,
+   "Low/high ratio": 0.8,
+   "Binomial p": 0.342833119420803,
+   "Mean open position (0.5 = unbiased)": 0.5092644861420162,
+   "Open outside range %": 0.0,
+   "Open = previous close %": 3.8947368421052633,
+   "Sector": "FX",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Yen futures (J6)",
+   "Source": "Barchart, exchange sourced",
+   "Sessions (H>L)": 3800,
+   "Open = low": 35,
+   "Open = high": 44,
+   "Low/high ratio": 0.7954545454545454,
+   "Binomial p": 0.3681876338306275,
+   "Mean open position (0.5 = unbiased)": 0.49548067762602227,
+   "Open outside range %": 0.0,
+   "Open = previous close %": 4.552631578947368,
+   "Sector": "FX",
+   "Flag": "pass"
+  },
+  {
+   "Series": "Swiss franc futures (S6)",
+   "Source": "Barchart, exchange sourced",
+   "Sessions (H>L)": 3800,
+   "Open = low": 37,
+   "Open = high": 44,
+   "Low/high ratio": 0.8409090909090909,
+   "Binomial p": 0.5052364407669266,
+   "Mean open position (0.5 = unbiased)": 0.5085034369694266,
+   "Open outside range %": 0.0,
+   "Open = previous close %": 5.447368421052631,
+   "Sector": "FX",
+   "Flag": "pass"
+  },
+  {
+   "Series": "U.S. Dollar Index (free provider)",
+   "Source": "Free provider (paper control)",
+   "Sessions (H>L)": 3788,
+   "Open = low": 204,
+   "Open = high": 82,
+   "Low/high ratio": 2.4878048780487805,
+   "Binomial p": 3.676542919171523e-13,
+   "Mean open position (0.5 = unbiased)": 0.47874265868755156,
+   "Open outside range %": 0.0,
+   "Open = previous close %": 7.1805702217529035,
+   "Sector": "FX",
+   "Flag": "FAIL"
+  }
+ ],
+ "screen_sub": {
+  "LA1": {
+   "pre2012": {
+    "Series": "LA1",
+    "Source": "",
+    "Sessions (H>L)": 1949,
+    "Open = low": 468,
+    "Open = high": 411,
+    "Low/high ratio": 1.1386861313868613,
+    "Binomial p": 0.05885252712433043,
+    "Mean open position (0.5 = unbiased)": -5.206064431074518,
+    "Open outside range %": 20.16418676244228,
+    "Open = previous close %": 2.5141097998973834
+   },
+   "post2012": {
+    "Series": "LA1",
+    "Source": "",
+    "Sessions (H>L)": 3687,
+    "Open = low": 798,
+    "Open = high": 904,
+    "Low/high ratio": 0.8827433628318584,
+    "Binomial p": 0.01090242448026044,
+    "Mean open position (0.5 = unbiased)": 0.5140526519705526,
+    "Open outside range %": 0.0,
+    "Open = previous close %": 1.3832384052074858
+   }
+  },
+  "LL1": {
+   "pre2012": {
+    "Series": "LL1",
+    "Source": "",
+    "Sessions (H>L)": 1312,
+    "Open = low": 372,
+    "Open = high": 387,
+    "Low/high ratio": 0.9612403100775194,
+    "Binomial p": 0.6113647631513744,
+    "Mean open position (0.5 = unbiased)": -1.9442931341969993,
+    "Open outside range %": 20.960365853658537,
+    "Open = previous close %": 1.600609756097561
+   },
+   "post2012": {
+    "Series": "LL1",
+    "Source": "",
+    "Sessions (H>L)": 2853,
+    "Open = low": 928,
+    "Open = high": 960,
+    "Low/high ratio": 0.9666666666666667,
+    "Binomial p": 0.4755798117422224,
+    "Mean open position (0.5 = unbiased)": 0.5024039877292273,
+    "Open outside range %": 0.03505082369435682,
+    "Open = previous close %": 1.2968804766912023
+   }
+  },
+  "LN1": {
+   "pre2012": {
+    "Series": "LN1",
+    "Source": "",
+    "Sessions (H>L)": 1699,
+    "Open = low": 630,
+    "Open = high": 328,
+    "Low/high ratio": 1.920731707317073,
+    "Binomial p": 1.0505905564372346e-22,
+    "Mean open position (0.5 = unbiased)": -6.9009605222172175,
+    "Open outside range %": 22.48381400824014,
+    "Open = previous close %": 2.0011771630370805
+   },
+   "post2012": {
+    "Series": "LN1",
+    "Source": "",
+    "Sessions (H>L)": 3287,
+    "Open = low": 1097,
+    "Open = high": 1038,
+    "Low/high ratio": 1.056840077071291,
+    "Binomial p": 0.20937902596650457,
+    "Mean open position (0.5 = unbiased)": 0.4903550720573795,
+    "Open outside range %": 0.0,
+    "Open = previous close %": 1.0952236081533313
+   }
+  },
+  "LT1": {
+   "pre2012": {
+    "Series": "LT1",
+    "Source": "",
+    "Sessions (H>L)": 846,
+    "Open = low": 236,
+    "Open = high": 273,
+    "Low/high ratio": 0.8644688644688645,
+    "Binomial p": 0.11047182037372429,
+    "Mean open position (0.5 = unbiased)": 11.780623308691915,
+    "Open outside range %": 21.39479905437352,
+    "Open = previous close %": 2.8368794326241136
+   },
+   "post2012": {
+    "Series": "LT1",
+    "Source": "",
+    "Sessions (H>L)": 1503,
+    "Open = low": 649,
+    "Open = high": 632,
+    "Low/high ratio": 1.0268987341772151,
+    "Binomial p": 0.6548637225146327,
+    "Mean open position (0.5 = unbiased)": 0.4913217632856244,
+    "Open outside range %": 0.0,
+    "Open = previous close %": 2.1290751829673984
+   }
+  },
+  "LX1": {
+   "pre2012": {
+    "Series": "LX1",
+    "Source": "",
+    "Sessions (H>L)": 1592,
+    "Open = low": 409,
+    "Open = high": 373,
+    "Low/high ratio": 1.096514745308311,
+    "Binomial p": 0.2106890985573687,
+    "Mean open position (0.5 = unbiased)": 1.8870080852977986,
+    "Open outside range %": 27.261306532663315,
+    "Open = previous close %": 1.7587939698492463
+   },
+   "post2012": {
+    "Series": "LX1",
+    "Source": "",
+    "Sessions (H>L)": 3561,
+    "Open = low": 954,
+    "Open = high": 1028,
+    "Low/high ratio": 0.9280155642023347,
+    "Binomial p": 0.10103812580596491,
+    "Mean open position (0.5 = unbiased)": 0.5113715446809418,
+    "Open outside range %": 0.0,
+    "Open = previous close %": 0.8705419825891604
+   }
+  },
+  "KW1": {
+   "pre2012": {
+    "Series": "KW1",
+    "Source": "",
+    "Sessions (H>L)": 3092,
+    "Open = low": 335,
+    "Open = high": 282,
+    "Low/high ratio": 1.1879432624113475,
+    "Binomial p": 0.03622439892934635,
+    "Mean open position (0.5 = unbiased)": 0.4790107316618098,
+    "Open outside range %": 3.2988357050452786,
+    "Open = previous close %": 10.899094437257437
+   },
+   "post2012": {
+    "Series": "KW1",
+    "Source": "",
+    "Sessions (H>L)": 3706,
+    "Open = low": 318,
+    "Open = high": 275,
+    "Low/high ratio": 1.1563636363636363,
+    "Binomial p": 0.08448921484387521,
+    "Mean open position (0.5 = unbiased)": 0.4912667772586047,
+    "Open outside range %": 0.0,
+    "Open = previous close %": 14.247166756610902
+   }
+  },
+  "C 1": {
+   "pre2012": {
+    "Series": "C 1",
+    "Source": "",
+    "Sessions (H>L)": 3128,
+    "Open = low": 255,
+    "Open = high": 183,
+    "Low/high ratio": 1.3934426229508197,
+    "Binomial p": 0.0006754396195821796,
+    "Mean open position (0.5 = unbiased)": 0.48196510000794957,
+    "Open outside range %": 0.1918158567774936,
+    "Open = previous close %": 22.09079283887468
+   },
+   "post2012": {
+    "Series": "C 1",
+    "Source": "",
+    "Sessions (H>L)": 3833,
+    "Open = low": 188,
+    "Open = high": 143,
+    "Low/high ratio": 1.3146853146853146,
+    "Binomial p": 0.015459633987647456,
+    "Mean open position (0.5 = unbiased)": 0.47966525260217135,
+    "Open outside range %": 0.0,
+    "Open = previous close %": 17.81894077745891
+   }
+  },
+  "S 1": {
+   "pre2012": {
+    "Series": "S 1",
+    "Source": "",
+    "Sessions (H>L)": 3126,
+    "Open = low": 243,
+    "Open = high": 128,
+    "Low/high ratio": 1.8984375,
+    "Binomial p": 2.4396762300927827e-09,
+    "Mean open position (0.5 = unbiased)": 0.45274421746381155,
+    "Open outside range %": 0.28790786948176583,
+    "Open = previous close %": 13.051823416506716
+   },
+   "post2012": {
+    "Series": "S 1",
+    "Source": "",
+    "Sessions (H>L)": 3816,
+    "Open = low": 256,
+    "Open = high": 191,
+    "Low/high ratio": 1.3403141361256545,
+    "Binomial p": 0.0024315111727327816,
+    "Mean open position (0.5 = unbiased)": 0.46447658175559925,
+    "Open outside range %": 0.0,
+    "Open = previous close %": 10.875262054507337
+   }
+  },
+  "KC1": {
+   "pre2012": {
+    "Series": "KC1",
+    "Source": "",
+    "Sessions (H>L)": 3069,
+    "Open = low": 340,
+    "Open = high": 451,
+    "Low/high ratio": 0.753880266075388,
+    "Binomial p": 8.962715783204289e-05,
+    "Mean open position (0.5 = unbiased)": 0.5204463190679764,
+    "Open outside range %": 0.5539263603779733,
+    "Open = previous close %": 7.950472466601499
+   },
+   "post2012": {
+    "Series": "KC1",
+    "Source": "",
+    "Sessions (H>L)": 3523,
+    "Open = low": 364,
+    "Open = high": 445,
+    "Low/high ratio": 0.8179775280898877,
+    "Binomial p": 0.004882895552864733,
+    "Mean open position (0.5 = unbiased)": 0.5192534460898954,
+    "Open outside range %": 0.05676979846721544,
+    "Open = previous close %": 7.493613397672439
+   }
+  }
+ },
+ "biweekly_best_anchor": {
+  "config": [
+   "Top7",
+   "2-2-3",
+   "Biweekly (10d)",
+   "Median"
+  ],
+  "final_grid": 1407.39071250252,
+  "final_same_anchor_check": 1407.3907125025132,
+  "final_other_anchor": 388.8088130444053,
+  "sr_other_anchor": 0.34765761716703636
+ }
+}

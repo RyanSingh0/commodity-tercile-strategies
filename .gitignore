@@ -1,0 +1,18 @@
+# licensed Bloomberg data, never commit
+data/Commodities_TR_Futures.xlsx
+data/*.xlsx
+cache/raw.pkl
+cache/grid.pkl
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+.vscode/
+
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*.synctex.gz

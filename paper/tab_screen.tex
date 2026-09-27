@@ -1,0 +1,27 @@
+\begin{table}[H]
+\begin{adjustwidth}{-\extralength}{0cm}
+\caption{Open-location screen on daily OHLC data. Under an unbiased open, P(open = low) = P(open = high); $p$ is the exact two-sided binomial test. ``Pos.'' is the mean position of the open in the day's range (0.5 expected); ``Outside'' is the share of opens outside the day's own range. Flag = FAIL if $p$ is below 0.01 after Bonferroni correction over all 37 series screened, or more than 1\% of opens lie outside the range. Selected rows; all 30 Bloomberg contracts are in the replication files.\label{tab:screen}}
+\small
+\begin{tabularx}{\fulllength}{Xlrrrrrl}
+\toprule
+\textbf{Series} & \textbf{Source} & \textbf{Open=low} & \textbf{Open=high} & \textbf{$p$} & \textbf{Pos.} & \textbf{Outside} & \textbf{Flag}\\
+\midrule
+Corn (C 1) & Bloomberg & 443 & 326 & 2.8e-05 & 0.48 & 0.1\% & FAIL\\
+WTI Crude Oil (CL1) & Bloomberg & 126 & 115 & 0.520 & 0.50 & 0.1\% & pass\\
+Brent Crude Oil (CO1) & Bloomberg & 218 & 207 & 0.628 & 0.50 & 0.0\% & pass\\
+Gold (GC1) & Bloomberg & 577 & 545 & 0.355 & 0.50 & 0.2\% & pass\\
+Copper (HG1) & Bloomberg & 605 & 561 & 0.208 & 0.50 & 0.3\% & pass\\
+Coffee (KC1) & Bloomberg & 704 & 896 & 1.7e-06 & 0.52 & 0.3\% & FAIL\\
+Wheat (Kansas HRW) (KW1) & Bloomberg & 653 & 557 & 0.006 & 0.49 & 1.5\% & FAIL\\
+Aluminium (LA1) & Bloomberg & 1266 & 1315 & 0.345 & $-$1.46 & 7.0\% & FAIL\\
+Nickel (LN1) & Bloomberg & 1727 & 1366 & 9.2e-11 & $-$2.03 & 7.7\% & FAIL\\
+Natural Gas (NG1) & Bloomberg & 119 & 152 & 0.052 & 0.51 & 0.8\% & pass\\
+Soybeans (S 1) & Bloomberg & 499 & 319 & 3.3e-10 & 0.46 & 0.1\% & FAIL\\
+Silver (SI1) & Bloomberg & 656 & 603 & 0.143 & 0.50 & 0.3\% & pass\\
+U.S. Dollar Index futures (DX) & Barchart (exch.) & 64 & 60 & 0.788 & 0.50 & 0.0\% & pass\\
+U.S. Dollar Index (free provider) & Free provider & 204 & 82 & 3.7e-13 & 0.48 & 0.0\% & FAIL\\
+\bottomrule
+\end{tabularx}
+\end{adjustwidth}
+\end{table}
+
